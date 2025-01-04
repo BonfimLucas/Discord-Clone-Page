@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body{
+    font-family: 'Open Sans', serif; 
+
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/header-background.png');
+    background-position: 76%;
+    height: 505px;
+}
+
+header section{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 40px;
+    margin-left: 10px;
+    padding: 10px;
+    
+}
+
+
+
+header h1{
+    font-family: 'Luckiest Guy', serif;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 400;
+    width: 250px;
+}
+
+header p{
+    font-size: 1em;
+    text-align: justify;
+    height: 132px;
+
+}
+
+header h1, p{
+    color: white;
+}
+
+header section p, #download-btn{
+    align-items: center;
+}
+
+#download-btn{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.download-btn-1-2{
+    width: 400px;
+    height: 54px;
+    border-radius: 28px;
+    font-weight: 400px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#black-btn{
+    background-color: #23272A;
+    color: white
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+#first-section .content{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 573px;
+    align-items: center;
+    gap: 25px;
+    text-align: left;
+}
+
+#first-section .content img{
+    margin: 0px;
+    width: 379px;
+    height: 252px;
+}
+
+#first-section .content h1{
+    font-weight: 800;
+    font-size: 1.5em;
+    color: #23272A;
+    width: 350px;
+    text-align: left;
+    
+}
+
+#first-section .content p{
+    font-weight: 400;
+    font-size: 1em;
+    color: #23272A;
+    width: 350px;
+    text-align: left;
+}
+
+#second-section .content{
+    height: 573px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+}
+
+#second-section .content img{
+    margin: 0px;
+    width: 379px;
+    height: 252px;
+}
+
+#second-section .content h1{
+    font-weight: 800;
+    font-size: 1.5em;
+    color: #23272A;
+    width: 350px;
+    text-align: left;
+}
+
+#second-section .content p{
+    font-weight: 400;
+    font-size: 1em;
+    color: #23272A;
+    width: 350px;
+    text-align: left;
+
+}
+
+#third-section .content{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 573px;
+    align-items: center;
+    gap: 25px;
+    text-align: left;
+}
+
+#third-section .content img{
+    margin: 0px;
+    height: 379px;
+    height: 252px;
+}
+
+#third-section .content h2{
+    font-weight: 800;
+    font-size: 1.5em;
+    color: #23272A;
+    width: 373px;
+    text-align: left;
+}
+
+#third-section .content p{
+    font-weight: 400;
+    font-size: 1em;
+    color: #23272A;
+    width: 370px;
+    text-align: left;
+}
+
+#fourth-section{
+    background-color: #F6F6F6;
+}
+
+#fourth-section .content{
+    background-color: #F6F6F6;
+    margin: 20px ;
+    display: flex;
+    flex-direction: column;
+    height: 573px;
+    align-items: center;
+    gap: 25px;
+    text-align: left;
+}
+
+#fourth-section .content h1{
+    font-family: 'Luckiest guy', serif;
+    font-weight: 800;
+    font-size: 2em;
+    color: #23272A;
+    width: 373px;
+    text-align: left;
+}
+
+#fourth-section .content p{
+    font-weight: 400;
+    font-size: 1em;
+    color: #23272A;
+    width: 370px;
+    text-align: left;
+}
+
+#fourth-section .content img{
+    margin: 0px;
+    height: 379px;
+    height: 252px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #23272A;
+    height: 140px;
+}
+
+footer img{
+    margin: 0px;
+    height: 100px;
+    width: 100px;
+}
