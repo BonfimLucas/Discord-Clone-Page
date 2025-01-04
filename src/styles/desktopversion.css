@@ -1,0 +1,318 @@
+@media (min-width: 335px) and (max-width: 480px) {
+    
+    header{
+        background-position: 67% bottom;
+        background-repeat: no-repeat;
+        gap: 1em;
+    }
+
+    header h1{
+        margin-top: 1em;
+        font-size: 2.3em;
+    }
+
+    header p{
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+
+    header button{
+        margin: auto;
+    }
+
+    footer img{
+        margin-top: 1em
+    };
+    
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+
+    header{
+        gap: 1.3em;
+    }
+
+    header h1{
+        width: 7em;
+    }
+
+    header p{
+        width: 22em;
+    }
+
+
+    header button{
+        margin: 0.1em auto;
+        width: 34em;
+    }
+
+    #fourth-section h1{
+        font-size: 2.3em;
+    }
+
+    #first-section h2, #second-section h2, #third-section h2{
+        font-size: 2em;
+    }
+
+    footer img{
+        margin-top: 2em;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    header{
+        justify-content: center;
+        align-items: center;
+
+        background-position: 30% 10%;
+    }
+
+
+    header h1, p{
+        text-align: center;
+        margin: auto;
+    }
+
+    #first-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10em 10em ;
+
+        grid-template-areas:
+        "image-side text-side"
+        "image-side text-side"
+    }
+
+    #first-section img, #second-section img, #third-section img, #fourth-section img{
+        width: 30em;
+        height: 20em;
+    }
+
+    #first-section img{
+        grid-area: image-side;
+    }
+
+    #first-section h2{
+        grid-area: text-side;
+        margin-top: 1.7em;
+        text-align: left;
+    }
+
+    #first-section p{
+        grid-area: text-side;
+        text-align: left;
+        margin-top: 11em;
+    }
+
+    #second-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10em 10em ;
+
+        grid-template-areas:
+        "text-side image-side"
+        "text-side image-side"
+    }
+
+    #second-section img{
+        grid-area: image-side;
+    }
+
+    #second-section h2{
+        grid-area: text-side;
+        margin-top: 2.7em;
+        text-align: right;
+    }
+
+    #second-section p{
+        grid-area: text-side;
+        text-align: right;
+        margin-top: 8em;
+    }
+
+    #third-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10em 10em ;
+
+        grid-template-areas:
+        "image-side text-side"
+        "image-side text-side"
+    }
+
+    #third-section img{
+        grid-area: image-side;
+    }
+
+    #third-section h2{
+        grid-area: text-side;
+        margin-top: 2.7em;
+        text-align: left;
+    }
+
+    #third-section p{
+        grid-area: text-side;
+        text-align: left;
+        margin-top: 8em;
+    }
+
+    #fourth-section{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #fourth-section p{
+        width: 40em;
+    }
+
+
+}
+
+@media (min-width: 1025px){
+
+    header{
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    header p{
+        width: 33em;
+        text-align: center;
+    }
+
+    #first-section{
+        display: grid;
+        grid-template-columns: 40em 40em;
+        grid-template-rows: 10em 10em ;
+        justify-content: center;
+        justify-items: center;
+        
+        grid-template-areas:
+        "image-side text-side"
+        "image-side text-side"
+
+
+    }
+
+    #first-section img, #second-section img, #third-section img, #fourth-section img{
+        width: 30em;
+        height: 20em;
+    }
+
+    #first-section img{
+        grid-area: image-side;
+
+    }
+
+    #first-section h2{
+        grid-area: text-side;
+        margin-top: 1em;
+        margin-right: 8.4em;
+        text-align: left;
+        width: 15em;
+        font-size: 2em;
+        font-weight: 900;
+    }
+
+    #first-section p{
+        grid-area: text-side;
+        text-align: left;
+        margin-top: 11em;
+        margin-right: 26.5em;
+        width: 20em;
+    }
+
+    #second-section{
+        display: grid;
+        grid-template-columns: 40em 40em;
+        grid-template-rows: 10em 10em ;
+        justify-content: center;
+        justify-items: center;
+        
+        grid-template-areas:
+        "text-side image-side"
+        "text-side image-side"
+    }
+
+    #second-section img{
+        grid-area: image-side;
+    }
+
+    #second-section h2{
+        grid-area: text-side;
+        margin-top: 1em;
+        margin-right: -2.2em;
+        text-align: left;
+        width: 10em;
+        font-size: 2em;
+    }
+
+    #second-section p{
+        grid-area: text-side;
+        text-align: left;
+        margin-top: 8em;
+        width: 24em;
+        margin-left: 10.7em;
+    }
+
+    #third-section{
+        display: grid;
+        grid-template-columns: 40em 40em;
+        grid-template-rows: 10em 10em ;
+        justify-content: center;
+        justify-items: center;
+        
+        grid-template-areas:
+        "image-side text-side"
+        "image-side text-side"
+    }
+
+    #third-section img{
+        grid-area: image-side;
+    }
+
+    #third-section h2{
+        grid-area: text-side;
+        margin-top: 1em;
+        text-align: left;
+        font-size: 2.6em;
+        width: 7.7em;
+        font-weight: 900;
+        margin-left: -10em;
+    }
+
+
+    #second-section img{
+        margin-left: -20em;
+    }
+
+    #third-section p{
+        grid-area: text-side;
+        text-align: left;
+        margin-top: 11em;
+        margin-left: -21em;
+        width: 25em;
+    }
+
+    #fourth-section{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #fourth-section h1{
+        font-size: 3em;
+        width: 12em;
+    }
+    
+    #fourth-section p{
+        width: 40em;
+    }
+
+}

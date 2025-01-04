@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -36,6 +40,8 @@ header button{
     height: 3.4em;
 
     border-radius: 1.8em;
+
+    cursor: pointer;
 }
 
 #btn-open-discord{
@@ -113,6 +119,8 @@ main{
     
 }
 
+
+
 #third-section p{
     font-family: 'Open sans', serif;
     color: #23272A;
@@ -124,7 +132,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 1em;
-    margin: 1em 0em;
+    margin: 1em 0em 0em 0em 0em;
     background-color: #F6F6F6;
 }
 
@@ -133,7 +141,7 @@ main{
 }
 
 #fourth-section h1{
-    font-family: 'Open sans', serif;
+    font-family: 'Luckiest Guy', serif;
     color: #23272A;
     font-weight: 800;
     font-size: 1.5em;
@@ -161,6 +169,4 @@ footer{
 footer img{
     position: relative;
     top: 1em;
-    margin: 0em;
-    border: 0em;
 }
