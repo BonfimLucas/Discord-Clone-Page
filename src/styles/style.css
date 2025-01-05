@@ -14,7 +14,7 @@ header{
     display: flex;
     flex-direction: column;
     color: white;
-    background-image: url('src/images/header-background.png');
+    background-image: url('/src/images/header-background.png');
     background-position: 53% 75%;
     background-size: unset;
     gap: 1em;
